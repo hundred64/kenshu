@@ -5,7 +5,7 @@
 	foreach ($data as $one) { // 要素をすべて表示
 	echo "$one ";
 	}
-	echo "<br>";
+	print(PHP_EOL);
 	
 	for($i = 0; $i < $dsize; $i++){ // 配列回数の繰り返し
 		$min = $i; // 回数個目の要素の値
@@ -20,7 +20,7 @@
 		foreach ($data as $one) { // 要素をすべて表示
 			echo "$one ";
 		}
-		echo "<br>";
+		print(PHP_EOL);
 	}
 ?>
 
